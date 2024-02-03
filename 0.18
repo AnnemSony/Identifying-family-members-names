@@ -1,0 +1,3449 @@
+Collecting package metadata (current_repodata.json): ...working... done
+Solving environment: ...working... done
+
+## Package Plan ##
+
+  environment location: C:\Users\annem\anaconda3
+
+  added / updated specs:
+    - scikit-image
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    _anaconda_depends-2023.03  |           py39_0          66 KB
+    anaconda-custom            |           py39_1           4 KB
+    ca-certificates-2022.12.7  |       h5b45459_0         143 KB  conda-forge
+    certifi-2022.12.7          |     pyhd8ed1ab_0         147 KB  conda-forge
+    conda-23.1.0               |   py39hcbf5309_0         912 KB  conda-forge
+    huggingface_hub-0.13.2     |     pyhd8ed1ab_0         141 KB  conda-forge
+    imbalanced-learn-0.10.1    |     pyhd8ed1ab_0         131 KB  conda-forge
+    libuv-1.44.2               |       h8ffe710_0         362 KB  conda-forge
+    ninja-1.10.2               |       haa95532_5          14 KB
+    ninja-base-1.10.2          |       h6d14046_5         255 KB
+    openssl-1.1.1t             |       h2bbff1b_0         5.5 MB
+    pygments-2.14.0            |     pyhd8ed1ab_0         805 KB  conda-forge
+    python_abi-3.9             |           2_cp39           4 KB  conda-forge
+    pytorch-1.12.1             |cpu_py39h5e1f01c_1        80.5 MB
+    scikit-image-0.19.3        |   py39h2e25243_1        10.7 MB  conda-forge
+    tokenizers-0.11.4          |   py39he5181cf_1         2.4 MB
+    transformers-4.24.0        |   py39haa95532_0         4.7 MB
+    ------------------------------------------------------------
+                                           Total:       106.8 MB
+
+The following NEW packages will be INSTALLED:
+
+  _anaconda_depends  pkgs/main/win-64::_anaconda_depends-2023.03-py39_0 
+  huggingface_hub    conda-forge/noarch::huggingface_hub-0.13.2-pyhd8ed1ab_0 
+  imbalanced-learn   conda-forge/noarch::imbalanced-learn-0.10.1-pyhd8ed1ab_0 
+  libuv              conda-forge/win-64::libuv-1.44.2-h8ffe710_0 
+  ninja              pkgs/main/win-64::ninja-1.10.2-haa95532_5 
+  ninja-base         pkgs/main/win-64::ninja-base-1.10.2-h6d14046_5 
+  pygments           conda-forge/noarch::pygments-2.14.0-pyhd8ed1ab_0 
+  python_abi         conda-forge/win-64::python_abi-3.9-2_cp39 
+  pytorch            pkgs/main/win-64::pytorch-1.12.1-cpu_py39h5e1f01c_1 
+  tokenizers         pkgs/main/win-64::tokenizers-0.11.4-py39he5181cf_1 
+  transformers       pkgs/main/win-64::transformers-4.24.0-py39haa95532_0 
+
+The following packages will be UPDATED:
+
+  ca-certificates    pkgs/main::ca-certificates-2022.07.19~ --> conda-forge::ca-certificates-2022.12.7-h5b45459_0 
+  certifi            pkgs/main/win-64::certifi-2022.9.14-p~ --> conda-forge/noarch::certifi-2022.12.7-pyhd8ed1ab_0 
+  openssl                                 1.1.1q-h2bbff1b_0 --> 1.1.1t-h2bbff1b_0 
+  scikit-image       pkgs/main::scikit-image-0.19.2-py39hf~ --> conda-forge::scikit-image-0.19.3-py39h2e25243_1 
+
+The following packages will be SUPERSEDED by a higher-priority channel:
+
+  conda              pkgs/main::conda-23.1.0-py39haa95532_0 --> conda-forge::conda-23.1.0-py39hcbf5309_0 
+
+The following packages will be DOWNGRADED:
+
+  anaconda                                   2022.10-py39_0 --> custom-py39_1 
+
+
+
+Downloading and Extracting Packages
+libuv-1.44.2         | 362 KB    |            |   0% 
+openssl-1.1.1t       | 5.5 MB    |            |   0% [A
+
+python_abi-3.9       | 4 KB      |            |   0% [A[A
+
+
+tokenizers-0.11.4    | 2.4 MB    |            |   0% [A[A[A
+
+
+
+huggingface_hub-0.13 | 141 KB    |            |   0% [A[A[A[A
+
+
+
+
+anaconda-custom      | 4 KB      |            |   0% [A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   |            |   0% [A[A[A[A[A[A
+
+
+
+
+
+
+imbalanced-learn-0.1 | 131 KB    |            |   0% [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+_anaconda_depends-20 | 66 KB     |            |   0% [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+certifi-2022.12.7    | 147 KB    |            |   0% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+ninja-1.10.2         | 14 KB     |            |   0% [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+transformers-4.24.0  | 4.7 MB    |            |   0% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+scikit-image-0.19.3  | 10.7 MB   |            |   0% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+conda-23.1.0         | 912 KB    |            |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+ca-certificates-2022 | 143 KB    |            |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ninja-base-1.10.2    | 255 KB    |            |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+pygments-2.14.0      | 805 KB    |            |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+openssl-1.1.1t       | 5.5 MB    |            |   0% [A
+
+
+tokenizers-0.11.4    | 2.4 MB    |            |   1% [A[A[Alibuv-1.44.2         | 362 KB    | 4          |   4% 
+openssl-1.1.1t       | 5.5 MB    | 2          |   2% [A
+
+
+
+huggingface_hub-0.13 | 141 KB    | #1         |  11% [A[A[A[A
+
+python_abi-3.9       | 4 KB      | ########## | 100% [A[A
+
+
+tokenizers-0.11.4    | 2.4 MB    | 2          |   3% [A[A[A
+
+python_abi-3.9       | 4 KB      | ########## | 100% [A[A
+openssl-1.1.1t       | 5.5 MB    | 3          |   3% [Alibuv-1.44.2         | 362 KB    | #3         |  13% 
+
+
+
+huggingface_hub-0.13 | 141 KB    | ###4       |  34% [A[A[A[A
+
+
+tokenizers-0.11.4    | 2.4 MB    | 5          |   5% [A[A[A
+openssl-1.1.1t       | 5.5 MB    | 4          |   5% [Alibuv-1.44.2         | 362 KB    | ###        |  31% 
+openssl-1.1.1t       | 5.5 MB    | 7          |   8% [A
+
+
+
+huggingface_hub-0.13 | 141 KB    | ######8    |  68% [A[A[A[A
+
+
+tokenizers-0.11.4    | 2.4 MB    | 9          |   9% [A[A[Alibuv-1.44.2         | 362 KB    | ####8      |  49% 
+
+
+tokenizers-0.11.4    | 2.4 MB    | #3         |  14% [A[A[A
+openssl-1.1.1t       | 5.5 MB    | #1         |  12% [A
+
+
+
+
+anaconda-custom      | 4 KB      | ########## | 100% [A[A[A[A[Alibuv-1.44.2         | 362 KB    | ######6    |  66% 
+openssl-1.1.1t       | 5.5 MB    | #6         |  16% [A
+
+
+tokenizers-0.11.4    | 2.4 MB    | ##         |  20% [A[A[A
+
+
+
+huggingface_hub-0.13 | 141 KB    | ########## | 100% [A[A[A[A
+
+
+
+huggingface_hub-0.13 | 141 KB    | ########## | 100% [A[A[A[A
+
+
+
+
+
+
+imbalanced-learn-0.1 | 131 KB    | #2         |  12% [A[A[A[A[A[A[A
+
+
+
+
+anaconda-custom      | 4 KB      | ########## | 100% [A[A[A[A[A
+openssl-1.1.1t       | 5.5 MB    | ##         |  20% [A
+
+
+tokenizers-0.11.4    | 2.4 MB    | ##3        |  24% [A[A[A
+
+
+
+
+
+
+imbalanced-learn-0.1 | 131 KB    | ####8      |  49% [A[A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   |            |   0% [A[A[A[A[A[Alibuv-1.44.2         | 362 KB    | ########## | 100% libuv-1.44.2         | 362 KB    | ########## | 100% 
+
+
+tokenizers-0.11.4    | 2.4 MB    | ###3       |  34% [A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   |            |   0% [A[A[A[A[A[A
+openssl-1.1.1t       | 5.5 MB    | ##6        |  26% [A
+
+
+
+
+
+
+
+
+certifi-2022.12.7    | 147 KB    | #          |  11% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+imbalanced-learn-0.1 | 131 KB    | ########## | 100% [A[A[A[A[A[A[A
+
+
+
+
+
+
+imbalanced-learn-0.1 | 131 KB    | ########## | 100% [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+_anaconda_depends-20 | 66 KB     | ##4        |  24% [A[A[A[A[A[A[A[A
+openssl-1.1.1t       | 5.5 MB    | ###4       |  35% [A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   |            |   1% [A[A[A[A[A[A
+
+
+tokenizers-0.11.4    | 2.4 MB    | ####9      |  49% [A[A[A
+
+
+
+
+
+
+
+
+
+ninja-1.10.2         | 14 KB     | ########## | 100% [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+certifi-2022.12.7    | 147 KB    | ########## | 100% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+certifi-2022.12.7    | 147 KB    | ########## | 100% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+transformers-4.24.0  | 4.7 MB    |            |   0% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+_anaconda_depends-20 | 66 KB     | ########## | 100% [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+_anaconda_depends-20 | 66 KB     | ########## | 100% [A[A[A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   |            |   1% [A[A[A[A[A[A
+openssl-1.1.1t       | 5.5 MB    | ####       |  40% [A
+
+
+tokenizers-0.11.4    | 2.4 MB    | #####5     |  56% [A[A[A
+
+
+
+
+
+
+
+
+
+
+
+scikit-image-0.19.3  | 10.7 MB   |            |   0% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+ninja-1.10.2         | 14 KB     | ########## | 100% [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+transformers-4.24.0  | 4.7 MB    | 1          |   1% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | 1          |   1% [A[A[A[A[A[A
+openssl-1.1.1t       | 5.5 MB    | ####4      |  44% [A
+
+
+
+
+
+
+
+
+
+
+
+scikit-image-0.19.3  | 10.7 MB   | 1          |   1% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+tokenizers-0.11.4    | 2.4 MB    | ######1    |  61% [A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | 1          |   1% [A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+transformers-4.24.0  | 4.7 MB    | 2          |   3% [A[A[A[A[A[A[A[A[A[A[A
+
+
+tokenizers-0.11.4    | 2.4 MB    | ######6    |  67% [A[A[A
+openssl-1.1.1t       | 5.5 MB    | ####7      |  48% [A
+
+
+
+
+
+
+
+
+
+
+
+scikit-image-0.19.3  | 10.7 MB   | 2          |   2% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | 1          |   2% [A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+transformers-4.24.0  | 4.7 MB    | 3          |   4% [A[A[A[A[A[A[A[A[A[A[A
+
+
+tokenizers-0.11.4    | 2.4 MB    | #######1   |  72% [A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | 1          |   2% [A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+scikit-image-0.19.3  | 10.7 MB   | 3          |   3% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+transformers-4.24.0  | 4.7 MB    | 4          |   5% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+scikit-image-0.19.3  | 10.7 MB   | 3          |   4% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | 1          |   2% [A[A[A[A[A[A
+openssl-1.1.1t       | 5.5 MB    | #####      |  51% [A
+
+
+tokenizers-0.11.4    | 2.4 MB    | #######6   |  76% [A[A[A
+
+
+
+
+
+
+
+
+
+
+transformers-4.24.0  | 4.7 MB    | 5          |   6% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+scikit-image-0.19.3  | 10.7 MB   | 5          |   5% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | 2          |   2% [A[A[A[A[A[A
+openssl-1.1.1t       | 5.5 MB    | #####5     |  56% [A
+
+
+tokenizers-0.11.4    | 2.4 MB    | ########4  |  84% [A[A[A
+
+
+
+
+
+
+
+
+
+
+transformers-4.24.0  | 4.7 MB    | 6          |   7% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+scikit-image-0.19.3  | 10.7 MB   | 5          |   6% [A[A[A[A[A[A[A[A[A[A[A[A
+openssl-1.1.1t       | 5.5 MB    | #####8     |  59% [A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | 2          |   2% [A[A[A[A[A[A
+
+
+tokenizers-0.11.4    | 2.4 MB    | ########8  |  89% [A[A[A
+
+
+
+
+
+
+
+
+
+
+
+scikit-image-0.19.3  | 10.7 MB   | 6          |   7% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+transformers-4.24.0  | 4.7 MB    | 8          |   8% [A[A[A[A[A[A[A[A[A[A[A
+openssl-1.1.1t       | 5.5 MB    | ######1    |  62% [A
+
+
+tokenizers-0.11.4    | 2.4 MB    | #########3 |  93% [A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | 2          |   3% [A[A[A[A[A[A
+openssl-1.1.1t       | 5.5 MB    | ######4    |  64% [A
+openssl-1.1.1t       | 5.5 MB    | ######6    |  67% [A
+
+
+
+
+
+
+
+
+
+
+
+scikit-image-0.19.3  | 10.7 MB   | 7          |   7% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+tokenizers-0.11.4    | 2.4 MB    | #########6 |  97% [A[A[A
+
+
+
+
+
+
+
+
+
+
+transformers-4.24.0  | 4.7 MB    | 9          |   9% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | 2          |   3% [A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+scikit-image-0.19.3  | 10.7 MB   | 8          |   8% [A[A[A[A[A[A[A[A[A[A[A[A
+openssl-1.1.1t       | 5.5 MB    | ######8    |  69% [A
+
+
+
+
+
+
+
+
+
+
+transformers-4.24.0  | 4.7 MB    | #          |  11% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | 2          |   3% [A[A[A[A[A[A
+
+
+tokenizers-0.11.4    | 2.4 MB    | ########## | 100% [A[A[A
+openssl-1.1.1t       | 5.5 MB    | #######3   |  74% [A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | 3          |   3% [A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+scikit-image-0.19.3  | 10.7 MB   | 9          |  10% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+transformers-4.24.0  | 4.7 MB    | #2         |  12% [A[A[A[A[A[A[A[A[A[A[A
+openssl-1.1.1t       | 5.5 MB    | #######6   |  77% [A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | 3          |   3% [A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+scikit-image-0.19.3  | 10.7 MB   | #          |  10% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+transformers-4.24.0  | 4.7 MB    | #3         |  13% [A[A[A[A[A[A[A[A[A[A[A
+openssl-1.1.1t       | 5.5 MB    | ########1  |  81% [A
+
+
+
+
+
+
+
+
+
+
+transformers-4.24.0  | 4.7 MB    | #4         |  15% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | 3          |   4% [A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+scikit-image-0.19.3  | 10.7 MB   | #1         |  12% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+conda-23.1.0         | 912 KB    | 1          |   2% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+scikit-image-0.19.3  | 10.7 MB   | #2         |  13% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | 3          |   4% [A[A[A[A[A[A
+openssl-1.1.1t       | 5.5 MB    | ########4  |  84% [A
+
+
+
+
+
+
+
+
+
+
+transformers-4.24.0  | 4.7 MB    | #6         |  16% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+conda-23.1.0         | 912 KB    | #          |  11% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | 4          |   4% [A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+scikit-image-0.19.3  | 10.7 MB   | #3         |  13% [A[A[A[A[A[A[A[A[A[A[A[A
+openssl-1.1.1t       | 5.5 MB    | ########7  |  87% [A
+
+
+
+
+
+
+
+
+
+
+
+
+conda-23.1.0         | 912 KB    | ##6        |  26% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+transformers-4.24.0  | 4.7 MB    | #7         |  17% [A[A[A[A[A[A[A[A[A[A[A
+openssl-1.1.1t       | 5.5 MB    | ########9  |  90% [A
+
+
+
+
+
+
+
+
+
+
+
+scikit-image-0.19.3  | 10.7 MB   | #4         |  14% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+conda-23.1.0         | 912 KB    | ####9      |  49% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+transformers-4.24.0  | 4.7 MB    | #8         |  18% [A[A[A[A[A[A[A[A[A[A[A
+openssl-1.1.1t       | 5.5 MB    | #########2 |  93% [A
+
+
+
+
+
+
+
+
+
+
+
+scikit-image-0.19.3  | 10.7 MB   | #5         |  15% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+conda-23.1.0         | 912 KB    | #######1   |  72% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | 4          |   4% [A[A[A[A[A[A
+openssl-1.1.1t       | 5.5 MB    | #########5 |  95% [A
+
+
+
+
+
+
+
+
+
+
+
+
+conda-23.1.0         | 912 KB    | #########9 | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+transformers-4.24.0  | 4.7 MB    | #9         |  19% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | 4          |   4% [A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+scikit-image-0.19.3  | 10.7 MB   | #5         |  16% [A[A[A[A[A[A[A[A[A[A[A[A
+openssl-1.1.1t       | 5.5 MB    | #########7 |  98% [A
+
+
+
+
+
+
+
+
+
+
+transformers-4.24.0  | 4.7 MB    | ##         |  21% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | 4          |   5% [A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+scikit-image-0.19.3  | 10.7 MB   | #6         |  17% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+ca-certificates-2022 | 143 KB    | #1         |  11% [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+conda-23.1.0         | 912 KB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | 5          |   5% [A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+scikit-image-0.19.3  | 10.7 MB   | #8         |  19% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+transformers-4.24.0  | 4.7 MB    | ##5        |  25% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+pygments-2.14.0      | 805 KB    | 1          |   2% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ninja-base-1.10.2    | 255 KB    | 6          |   6% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+openssl-1.1.1t       | 5.5 MB    | ########## | 100% [A
+openssl-1.1.1t       | 5.5 MB    | ########## | 100% [A
+
+
+
+
+
+
+
+
+
+
+
+
+
+ca-certificates-2022 | 143 KB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+ca-certificates-2022 | 143 KB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ninja-base-1.10.2    | 255 KB    | #######5   |  75% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+scikit-image-0.19.3  | 10.7 MB   | #9         |  20% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+pygments-2.14.0      | 805 KB    | ####1      |  42% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+transformers-4.24.0  | 4.7 MB    | ##6        |  26% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | 5          |   5% [A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ninja-base-1.10.2    | 255 KB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | 5          |   6% [A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+scikit-image-0.19.3  | 10.7 MB   | ##1        |  22% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+transformers-4.24.0  | 4.7 MB    | ##9        |  30% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+scikit-image-0.19.3  | 10.7 MB   | ##2        |  23% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | 6          |   6% [A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+pygments-2.14.0      | 805 KB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+pygments-2.14.0      | 805 KB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+scikit-image-0.19.3  | 10.7 MB   | ##3        |  24% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | 6          |   6% [A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+transformers-4.24.0  | 4.7 MB    | ###4       |  34% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+transformers-4.24.0  | 4.7 MB    | ###6       |  36% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+scikit-image-0.19.3  | 10.7 MB   | ##5        |  25% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | 6          |   7% [A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | 6          |   7% [A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+scikit-image-0.19.3  | 10.7 MB   | ##6        |  26% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+transformers-4.24.0  | 4.7 MB    | ###8       |  38% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+scikit-image-0.19.3  | 10.7 MB   | ##7        |  27% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | 7          |   7% [A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+transformers-4.24.0  | 4.7 MB    | ####       |  40% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | 7          |   7% [A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+scikit-image-0.19.3  | 10.7 MB   | ##9        |  29% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+transformers-4.24.0  | 4.7 MB    | ####2      |  42% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | 7          |   8% [A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+scikit-image-0.19.3  | 10.7 MB   | ###        |  30% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+transformers-4.24.0  | 4.7 MB    | ####3      |  44% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | 7          |   8% [A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+scikit-image-0.19.3  | 10.7 MB   | ###1       |  32% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+transformers-4.24.0  | 4.7 MB    | ####5      |  46% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | 8          |   8% [A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+scikit-image-0.19.3  | 10.7 MB   | ###3       |  33% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | 8          |   8% [A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+transformers-4.24.0  | 4.7 MB    | ####7      |  47% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+scikit-image-0.19.3  | 10.7 MB   | ###4       |  35% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | 8          |   9% [A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+scikit-image-0.19.3  | 10.7 MB   | ###6       |  37% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+transformers-4.24.0  | 4.7 MB    | ####9      |  50% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+scikit-image-0.19.3  | 10.7 MB   | ###8       |  38% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | 9          |   9% [A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+transformers-4.24.0  | 4.7 MB    | #####1     |  52% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+scikit-image-0.19.3  | 10.7 MB   | ####       |  40% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | 9          |  10% [A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+transformers-4.24.0  | 4.7 MB    | #####4     |  54% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | #          |  10% [A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+scikit-image-0.19.3  | 10.7 MB   | ####2      |  42% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+transformers-4.24.0  | 4.7 MB    | #####6     |  56% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+scikit-image-0.19.3  | 10.7 MB   | ####4      |  44% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | #          |  10% [A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+transformers-4.24.0  | 4.7 MB    | #####8     |  58% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+scikit-image-0.19.3  | 10.7 MB   | ####6      |  46% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | #          |  11% [A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+transformers-4.24.0  | 4.7 MB    | ######     |  60% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+scikit-image-0.19.3  | 10.7 MB   | ####8      |  49% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | #1         |  11% [A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+transformers-4.24.0  | 4.7 MB    | ######2    |  63% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+scikit-image-0.19.3  | 10.7 MB   | #####      |  51% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | #1         |  12% [A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+transformers-4.24.0  | 4.7 MB    | ######5    |  65% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | #1         |  12% [A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+scikit-image-0.19.3  | 10.7 MB   | #####2     |  53% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+transformers-4.24.0  | 4.7 MB    | ######7    |  67% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | #2         |  12% [A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+scikit-image-0.19.3  | 10.7 MB   | #####4     |  54% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+transformers-4.24.0  | 4.7 MB    | ######9    |  69% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | #2         |  13% [A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+scikit-image-0.19.3  | 10.7 MB   | #####6     |  56% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+transformers-4.24.0  | 4.7 MB    | #######1   |  71% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | #3         |  13% [A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+scikit-image-0.19.3  | 10.7 MB   | #####8     |  58% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+transformers-4.24.0  | 4.7 MB    | #######3   |  73% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | #3         |  14% [A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+scikit-image-0.19.3  | 10.7 MB   | ######     |  61% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+transformers-4.24.0  | 4.7 MB    | #######5   |  75% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | #3         |  14% [A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+scikit-image-0.19.3  | 10.7 MB   | ######2    |  62% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+transformers-4.24.0  | 4.7 MB    | #######7   |  77% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | #4         |  14% [A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+scikit-image-0.19.3  | 10.7 MB   | ######4    |  64% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+transformers-4.24.0  | 4.7 MB    | #######9   |  79% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | #4         |  15% [A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+scikit-image-0.19.3  | 10.7 MB   | ######5    |  66% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+transformers-4.24.0  | 4.7 MB    | ########1  |  81% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | #5         |  15% [A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+scikit-image-0.19.3  | 10.7 MB   | ######7    |  68% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+transformers-4.24.0  | 4.7 MB    | ########3  |  83% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | #5         |  15% [A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+scikit-image-0.19.3  | 10.7 MB   | ######9    |  69% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+transformers-4.24.0  | 4.7 MB    | ########5  |  85% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | #5         |  16% [A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+scikit-image-0.19.3  | 10.7 MB   | #######    |  71% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+transformers-4.24.0  | 4.7 MB    | ########6  |  87% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | #6         |  16% [A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+scikit-image-0.19.3  | 10.7 MB   | #######2   |  73% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+transformers-4.24.0  | 4.7 MB    | ########8  |  89% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | #6         |  17% [A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+scikit-image-0.19.3  | 10.7 MB   | #######4   |  74% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+transformers-4.24.0  | 4.7 MB    | #########  |  90% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | #6         |  17% [A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+scikit-image-0.19.3  | 10.7 MB   | #######5   |  76% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+transformers-4.24.0  | 4.7 MB    | #########1 |  92% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | #7         |  17% [A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+scikit-image-0.19.3  | 10.7 MB   | #######6   |  77% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+transformers-4.24.0  | 4.7 MB    | #########3 |  93% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+scikit-image-0.19.3  | 10.7 MB   | #######8   |  79% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | #7         |  18% [A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+transformers-4.24.0  | 4.7 MB    | #########4 |  95% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | #7         |  18% [A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+scikit-image-0.19.3  | 10.7 MB   | ########   |  80% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+transformers-4.24.0  | 4.7 MB    | #########6 |  96% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+scikit-image-0.19.3  | 10.7 MB   | ########1  |  82% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | #8         |  18% [A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+transformers-4.24.0  | 4.7 MB    | #########8 |  98% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | #8         |  19% [A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+scikit-image-0.19.3  | 10.7 MB   | ########3  |  83% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+transformers-4.24.0  | 4.7 MB    | #########9 | 100% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+scikit-image-0.19.3  | 10.7 MB   | ########4  |  85% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | #8         |  19% [A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+scikit-image-0.19.3  | 10.7 MB   | ########6  |  86% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | #9         |  19% [A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+transformers-4.24.0  | 4.7 MB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+scikit-image-0.19.3  | 10.7 MB   | ########9  |  90% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | ##         |  20% [A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+scikit-image-0.19.3  | 10.7 MB   | #########1 |  92% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | ##         |  21% [A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | ##1        |  21% [A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+scikit-image-0.19.3  | 10.7 MB   | #########3 |  94% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+scikit-image-0.19.3  | 10.7 MB   | #########5 |  95% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | ##1        |  22% [A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | ##2        |  22% [A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+scikit-image-0.19.3  | 10.7 MB   | #########7 |  97% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+scikit-image-0.19.3  | 10.7 MB   | #########9 | 100% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | ##2        |  23% [A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | ##2        |  23% [A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+scikit-image-0.19.3  | 10.7 MB   | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | ##3        |  24% [A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | ##3        |  24% [A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | ##4        |  24% [A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | ##4        |  25% [A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | ##5        |  25% [A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | ##5        |  25% [A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | ##6        |  26% [A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | ##6        |  27% [A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | ##7        |  27% [A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | ##7        |  28% [A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | ##8        |  29% [A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | ##9        |  29% [A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | ##9        |  30% [A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | ###        |  31% [A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | ###1       |  31% [A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | ###1       |  32% [A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | ###2       |  32% [A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | ###3       |  33% [A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | ###3       |  34% [A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | ###4       |  34% [A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | ###5       |  35% [A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | ###5       |  36% [A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | ###6       |  36% [A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | ###6       |  37% [A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | ###7       |  37% [A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | ###7       |  38% [A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | ###8       |  39% [A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | ###9       |  39% [A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | ####       |  40% [A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | ####       |  41% [A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | ####1      |  41% [A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | ####1      |  42% [A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | ####2      |  42% [A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | ####3      |  43% [A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | ####3      |  44% [A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | ####4      |  44% [A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | ####4      |  45% [A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | ####5      |  45% [A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | ####5      |  46% [A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | ####6      |  47% [A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | ####7      |  47% [A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | ####7      |  48% [A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | ####8      |  48% [A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | ####9      |  49% [A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | ####9      |  50% [A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | #####      |  50% [A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | #####      |  51% [A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | #####1     |  51% [A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | #####2     |  52% [A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | #####2     |  52% [A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | #####2     |  53% [A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | #####3     |  53% [A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | #####3     |  54% [A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | #####4     |  54% [A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | #####4     |  55% [A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | #####5     |  55% [A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | #####5     |  56% [A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | #####6     |  56% [A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | #####7     |  57% [A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | #####7     |  58% [A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | #####8     |  58% [A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | #####8     |  59% [A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | #####9     |  60% [A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | ######     |  60% [A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | ######1    |  61% [A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | ######1    |  62% [A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | ######2    |  62% [A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | ######2    |  63% [A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | ######3    |  63% [A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | ######3    |  64% [A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | ######4    |  64% [A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | ######4    |  65% [A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | ######5    |  65% [A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | ######5    |  66% [A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | ######6    |  66% [A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | ######6    |  67% [A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | ######7    |  68% [A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | ######8    |  68% [A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | ######8    |  69% [A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | ######9    |  70% [A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | #######    |  70% [A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | #######    |  71% [A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | #######1   |  71% [A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | #######1   |  72% [A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | #######2   |  72% [A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | #######3   |  73% [A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | #######3   |  74% [A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | #######4   |  74% [A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | #######4   |  75% [A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | #######5   |  75% [A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | #######6   |  76% [A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | #######6   |  77% [A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | #######7   |  77% [A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | #######8   |  78% [A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | #######8   |  79% [A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | #######9   |  80% [A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | ########   |  80% [A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | ########   |  81% [A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | ########1  |  82% [A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | ########2  |  83% [A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | ########3  |  83% [A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | ########3  |  84% [A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | ########4  |  84% [A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | ########4  |  85% [A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | ########5  |  85% [A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | ########6  |  86% [A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | ########6  |  87% [A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | ########7  |  87% [A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | ########8  |  88% [A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | ########8  |  89% [A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | ########9  |  90% [A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | #########  |  90% [A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | #########1 |  91% [A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | #########1 |  92% [A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | #########2 |  92% [A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | #########2 |  93% [A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | #########3 |  93% [A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | #########4 |  94% [A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | #########4 |  94% [A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | #########5 |  95% [A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | #########5 |  95% [A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | #########6 |  96% [A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | #########6 |  97% [A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | #########7 |  97% [A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | #########8 |  98% [A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | #########8 |  99% [A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | #########9 |  99% [A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | #########9 | 100% [A[A[A[A[A[A
+
+
+
+
+
+pytorch-1.12.1       | 80.5 MB   | ########## | 100% [A[A[A[A[A[A                                                     
+                                                     [A
+
+                                                     [A[A
+
+
+                                                     [A[A[A
+
+
+
+                                                     [A[A[A[A
+
+
+
+
+                                                     [A[A[A[A[A
+
+
+
+
+
+                                                     [A[A[A[A[A[A
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
